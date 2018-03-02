@@ -1,3 +1,382 @@
 git add .
 git commit -m "message"
 git push origin master
+
+git add .
+git commit -m "message"
+git push origin master
+    1  clewar
+    2  clear
+    3  ls
+    4  cd Documents/
+    5  ls
+    6  mkdir GitRepoHrishi
+    7  cd GitRepoHrishi/
+    8  clone https://github.com/hrishikesh23/iMX7d-Custom/
+    9  git clone https://github.com/hrishikesh23/iMX7d-Custom/
+   10  ls
+   11  cd iMX7d-Custom/
+   12  ls
+   13  git status
+   14  vim test.c
+   15  ls
+   16  git status
+   17  vim test.c 
+   18  git add test.c 
+   19  git commit -m "Test file added"
+   20  git config --global "hrishikesh23@live.com"
+   21  git config --global "hrishikesh23"
+   22  git config --global user.email "hrishikesh23@live.com"
+   23  git config --global user.name "hrishikes23"
+   24  git commit -m "Test file added"
+   25  git push origin master
+   26  git rm test.c 
+   27  git commit -m "Removed File"
+   28  git rm --cached file1.txt
+   29  git rm --cached test.c
+   30  git push origin master
+   31  git add ../../iMX7/.
+   32  history >> GitInfo.txt
+   33  ls
+   34  vim GitInfo.txt 
+   35  ls
+   36  apt-get install g++
+   37  sudo add-apt-repository ppa:mc3man/trusty-media
+   38  sudo apt-get install vlc vlc-plugin-*
+   39  sudo apt-get install git
+   40  ls
+   41  cd Documents/
+   42  ls
+   43  mkdir iMX7
+   44  cd iMX7/
+   45  git clone git://git.busybox.net/buildroot
+   46  ls
+   47  cd buildroot/
+   48  ls
+   49  make freescale_imx7dsabresd_defconfig
+   50  ls
+   51  make
+   52  history >> 02_Sept_Buildroot_Imx7.txt
+   53  vim 02_Sept_Buildroot_Imx7.txt 
+   54  apt-get install vim
+   55  vim 02_Sept_Buildroot_Imx7.txt 
+   56  find . -iname *imx7.dts
+   57  find . -iname *imx7*.dts
+   58  mkdir Docs
+   59  find . -iname *imx7*.dtb
+   60  ls -al output/build/linux-rel_imx_4.1.15_2.0.0_ga/arch/arm/boot/dts/imx7d-sdb*
+   61  find . -iname *imx7d*.dts
+   62  find . -iname imx7d-sdb.dts
+   63  find . -iname imx7d-sdb.dtb
+   64  vim /output/build/linux-rel_imx_4.1.15_2.0.0_ga/arch/arm/boot/dts/imx7d-sdb.dts
+   65  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/arch/arm/boot/dts/imx7d-sdb.dts
+   66  ls
+   67  find . -iname u-boot
+   68  cd output/build/uboot-rel_imx_4.1.15_2.0.0_ga/
+   69  ls
+   70  vim u-boot.cfg 
+   71  cd config/
+   72  ls
+   73  find . -iname imx*.cfg
+   74  vim board/freescale/mx7dsabresd/imximage.cfg
+   75  cd board/freescale/mx7dsabresd/
+   76  ls -al imximage.cfg
+   77  pwd
+   78  cd ../../../../
+   79  cd ../
+   80  ls
+   81  ls
+   82  cd Documents/
+   83  ls
+   84  cd iMX7/
+   85  ls
+   86  cd buildroot/
+   87  ls
+   88  cd Docs/
+   89  ls
+   90  cd ../
+   91  rm -rf Docs
+   92  ls
+   93  vim 02_Sept_Buildroot_Imx7.txt 
+   94  mv 02_Sept_Buildroot_Imx7.txt /home/arjun/
+   95  sudo apt-get install gdebi-core
+   96  sudo gdebi bcompare-4.2.3.22587_amd64.deb
+   97  wget https://www.scootersoftware.com/bcompare-4.2.3.22587_amd64.deb
+   98  history
+   99  sudo gdebi bcompare-4.2.3.22587_amd64.deb
+  100  apt-get install xdg-open
+  101  gnome-open .
+  102  apt-get install libgnome2-bin
+  103  find . -iname imximage.cfg
+  104  cd output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/
+  105  gnome-open .
+  106  ls
+  107  cd ../
+  108  ls
+  109  cd ../
+  110  ls
+  111  cd ../
+  112  ls
+  113  find . -iname boards.cfg
+  114  cd ../
+  115  ls
+  116  cd ../
+  117  find . -iname boards.cfg
+  118  cd ../
+  119  ls
+  120  find . -iname boards.cfg
+  121  find . -iname
+  122  find . -iname imx7d*.dts
+  123  cd output/build/linux-rel_imx_4.1.15_2.0.0_ga/arch/arm/boot/dts/
+  124  ls
+  125  gnome-open .
+  126  cd -
+  127  ls
+  128  mv bcompare-4.2.3.22587_amd64.deb ../../
+  129  ls
+  130  history
+  131  find . -iname freescale_imx7_defconfig
+  132  find . -iname freescale_imx7*
+  133  vim configs/freescale_imx7dsabresd_defconfig 
+  134  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config
+  135  make linux-menuconfig
+  136  apt-get install ncurses
+  137  apt-get install ncurses-devel
+  138  apt-get install libncurses-dev
+  139  cp configs/freescale_imx7dsabresd_defconfig ../../
+  140  cp output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config ../../.config
+  141  make linux-menuconfig
+  142  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config
+  143  make linux-menuconfig
+  144  ls
+  145  vim board/freescale/imx7dsdb/readme.txt 
+  146  vim .config 
+  147  make linux-menuconfig
+  148  make linux-me
+  149  vim configs/freescale_imx7dsabresd_defconfig 
+  150  make linux-menuconfig
+  151  make
+  152  cp ../../.config output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config
+  153  make
+  154  ls
+  155  cd ../
+  156  ls
+  157  cp -rf buildroot ../GitRepoHrishi/iMX7d-Custom/
+  158  cp buildroot/.config ../GitRepoHrishi/iMX7d-Custom/buildroot/.config
+  159  make freescale_imx7dsabresd_defconfig 
+  160  cd buildroot/
+  161  make freescale_imx7dsabresd_defconfig 
+  162  make
+  163  ls
+  164  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/a
+  165  rm GitRepoHrishi/iMX7d-Custom/GitInfo.txt 
+  166  cd GitRepoHrishi/iMX7d-Custom/
+  167  ls
+  168  cd buildroot/
+  169  ls
+  170  make freescale_imx7dsabresd_defconfig 
+  171  make
+  172  ls
+  173  make freescale_imx7dsabresd_defconfig 
+  174  make
+  175  vim board/freescale/imx7dsdb/readme.txt 
+  176  make freescale_imx7dsabresd_defconfig 
+  177  cd ..
+  178  git
+  179  git status
+  180  gdebi pins-tool-for-imx-processors-v3-1_amd64.deb 
+  181  cd ../
+  182  ls
+  183  cd Documents/
+  184  ls
+  185  cd GitRepoHrishi/
+  186  ls
+  187  cd iMX7d-Custom/
+  188  ls
+  189  rm -rf buildroot/
+  190  ls
+  191  cd /home/arjun/Documents/iMX7/buildroot/output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/
+  192  ls
+  193  mv imximage.cfg imximage_org.cfg
+  194  mv imximage1.cfg imximage.cfg
+  195  vim imximage.cfg
+  196  cd -
+  197  cd Documents/iMX7/buildroot/
+  198  cd output/images/
+  199  ls
+  200  ls -al
+  201  mkdir /home/arjun/Desktop/outpu
+  202  cp * /home/arjun/Desktop/outpu/
+  203  ls
+  204  chmod +x *
+  205  ls
+  206  rm boot.vfat 
+  207  mkdir update
+  208  cd update/
+  209  git clone https://github.com/hrishikesh23/iMX7d-Custom
+  210  ls
+  211  cp sdcard.img iMX7d-Custom/
+  212  cd iMX7d-Custom/
+  213  ls
+  214  git status
+  215  rm sdcard.img 
+  216  git update
+  217  git pull
+  218  ls
+  219  cd ../
+  220  ls
+  221  mv sdcard.img sdcard1.img
+  222  cd ../
+  223  cd update/iMX7d-Custom/
+  224  cp ../sdcard1.img .
+  225  ls
+  226  git add sdcard1.img 
+  227  git commit -m "Image1"
+  228  git push origin master
+  229  ls
+  230  cp ../sdcard3.img .
+  231  cp ../sdcard4.img .
+  232  cp ../sdcard5.img .
+  233  cp ../sdcard6.img .
+  234  ls
+  235  git add .
+  236  git status
+  237  git commit -m "test files"
+  238  git push origin master
+  239  cp sdcard.img /home/arjun/Documents/GitRepoHrishi/iMX7d-Custom/
+  240  cd /home/arjun/Documents/GitRepoHrishi/iMX7d-Custom/
+  241  ls
+  242  git status
+  243  git add sdcard.img 
+  244  git commit -m "Sdcard Image"
+  245  git config --global "hrishikesh23@live.com"
+  246  git config --global user.email "hrishikesh23@live.com"
+  247  git config --global user.name "hrishikes23"
+  248  git push origin master
+  249  ls
+  250  git
+  251  git status
+  252  ls
+  253  mkdir Image_04_09_2017
+  254  git add Image_04_09_2017
+  255  git commit -m "Image Folder"
+  256  git commit -m "Image Folder" Image_04_09_2017
+  257  git commit -m "Image Folder" -- Image_04_09_2017/
+  258  git commit -m 'Image Folder' -- Image_04_09_2017
+  259  clear
+  260  ls
+  261  clear
+  262  ls
+  263  cd /home/arjun/Documents/
+  264  ls
+  265  cd iMX7/
+  266  ls
+  267  cd buildroot/
+  268  ls
+  269  find . -iname imximage*.cfg
+  270  cp /home/arjun/Downloads/dts_and_ddr_config_imx7D_based_custom_board/imximage1.cfg output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/
+  271  rm output/build/uboot-rel_imx_4.1.15_2.0.0_ga/.stamp_built 
+  272  make
+  273  make freescale_imx6dlsabreauto_defconfig
+  274  make
+  275  make freescale_imx6dlsabreauto_defconfig
+  276  cat /proc/partitions 
+  277  dmsg
+  278  dmesg
+  279  cat /proc/partitions 
+  280  git status
+  281  cd ../
+  282  git status
+  283  cd buildroot/
+  284  ls
+  285  make freescale_imx6dlsabreauto_defconfig
+  286  tar -vxf /home/arjun/Downloads/buildroot-master.zip -C /home/arjun/Documents/GitRepoHrishi/iMX7d-Custom/
+  287  tar -xvf /home/arjun/Downloads/buildroot-master.zip -C /home/arjun/Documents/GitRepoHrishi/iMX7d-Custom/
+  288  vim .config
+  289  vim output/build/uboot-rel_imx_4.1.15_2.0.0_ga/.config 
+  290  grep -inr "CONFIG_SYS_BOOT_QSPI" .
+  291  vim output/build/uboot-rel_imx_4.1.15_2.0.0_ga/include/configs/mx7dsabresd.h 
+  292  find . -iname mx7_common.h
+  293  vim output/build/uboot-rel_imx_4.1.15_2.0.0_ga/include/con
+  294  cd output/build/
+  295  grep -inr "CONFIG_SYS_BOOT_QSPI" .
+  296  find . -iname config.h
+  297  cd uboot-rel_imx_4.1.15_2.0.0_ga/
+  298  find . -iname config.h
+  299  grep -inr "CONFIG_SYS_BOOT_QSPI" .
+  300  apt-get install unzip
+  301  cd /home/arjun/Documents/GitRepoHrishi/iMX7d-Custom/
+  302  ls
+  303  unzip buildroot-master.zip 
+  304  ls
+  305  rm buildroot-master.zip
+  306  ls
+  307  cd buildroot-master/
+  308  ls
+  309  find . -iname freescale_*_defconfig
+  310  git status
+  311  git add .
+  312  make freescale_imx7dsabresd_defconfig
+  313  make
+  314  cp /home/arjun/Downloads/dts_and_ddr_config_imx7D_based_custom_board/imximage1.cfg output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/
+  315  mv output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/imximage.cfg output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/imximage_orig.cfg
+  316  ls -al output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/
+  317  mv output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/imximage1.cfg output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/imximage.cfg
+  318  vim output/build/uboot-rel_imx_4.1.15_2.0.0_ga/board/freescale/mx7dsabresd/imximage.cfg
+  319  rm output/build/uboot-rel_imx_4.1.15_2.0.0_ga/.stamp_configured 
+  320  rm output/build/uboot-rel_imx_4.1.15_2.0.0_ga/.stamp_built 
+  321  make
+  322  chmod +x output/images/sdcard.img 
+  323  cp output/images/sdcard.img 
+  324  cp output/images/sdcard.img /home/arjun/Desktop/outpu/update/
+  325  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/arch/arm/boot/dts/imx7d.dtsi 
+  326  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config
+  327  rm output/build/linux-rel_imx_4.1.15_2.0.0_ga/.stamp_configured 
+  328  rm output/build/linux-rel_imx_4.1.15_2.0.0_ga/.stamp_built 
+  329  make
+  330  cp output/images/sdcard.img /home/arjun/Desktop/outpu/update/sdcard2.img
+  331  cp output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config /home/arjun/Desktop/outpu/update/sdcard2.txt
+  332  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config
+  333  rm output/build/uboot-rel_imx_4.1.15_2.0.0_ga/.stamp_built 
+  334  rm output/build/linux-rel_imx_4.1.15_2.0.0_ga/.stamp_configured 
+  335  make
+  336  cp output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config /home/arjun/Desktop/outpu/update/sdcard3.txt
+  337  cp output/images/sdcard.img /home/arjun/Desktop/outpu/update/sdcard3.img
+  338  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config
+  339  rm output/build/linux-rel_imx_4.1.15_2.0.0_ga/.stamp_configured 
+  340  rm output/build/uboot-rel_imx_4.1.15_2.0.0_ga/.stamp_built 
+  341  make
+  342  cp output/images/sdcard.img /home/arjun/Desktop/outpu/update/sdcard4.img
+  343  cp output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config /home/arjun/Desktop/outpu/update/sdcard4.txt
+  344  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config
+  345  rm output/build/linux-rel_imx_4.1.15_2.0.0_ga/.stamp_configured 
+  346  rm output/build/uboot-rel_imx_4.1.15_2.0.0_ga/.stamp_built 
+  347  make
+  348  cp output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config /home/arjun/Desktop/outpu/update/sdcard5.txt
+  349  cp output/images/sdcard.img /home/arjun/Desktop/outpu/update/sdcard5.img
+  350  rm output/build/linux-rel_imx_4.1.15_2.0.0_ga/.stamp_configured 
+  351  rm output/build/uboot-rel_imx_4.1.15_2.0.0_ga/.stamp_built 
+  352  vim output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config
+  353  make
+  354  cp output/images/sdcard.img /home/arjun/Desktop/outpu/update/sdcard6.img
+  355  cp output/build/linux-rel_imx_4.1.15_2.0.0_ga/.config /home/arjun/Desktop/outpu/update/sdcard6.txt
+  356  ls
+  357  clear
+  358  ls
+  359  sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+  360  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  361  sudo apt-get update
+  362  sudo apt-get install google-chrome-beta
+  363  apt-get install pip3
+  364  apt-get install pip
+  365  pip install numpy
+  366  apt-get install python-pip3
+  367  apt-get install python-pip
+  368  apt-get update
+  369  apt-get install python3-pip
+  370  pip3 install python3-numpy
+  371  pip3 install numpy
+  372  pip3 install matplotlib
+  373  apt-get install libfreetype6-dev
+  374  pip3 install matplotlib
+  375  history >> Commands_Python.txt

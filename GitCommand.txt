@@ -1,0 +1,32 @@
+    1  clewar
+    2  clear
+    3  ls
+    4  cd Documents/
+    5  ls
+    6  mkdir GitRepoHrishi
+    7  cd GitRepoHrishi/
+    8  clone https://github.com/hrishikesh23/iMX7d-Custom/
+    9  git clone https://github.com/hrishikesh23/iMX7d-Custom/
+   10  ls
+   11  cd iMX7d-Custom/
+   12  ls
+   13  git status
+   14  vim test.c
+   15  ls
+   16  git status
+   17  vim test.c 
+   18  git add test.c 
+   19  git commit -m "Test file added"
+   20  git config --global "hrishikesh23@live.com"
+   21  git config --global "hrishikesh23"
+   22  git config --global user.email "hrishikesh23@live.com"
+   23  git config --global user.name "hrishikes23"
+   24  git commit -m "Test file added"
+   25  git push origin master
+   26  git rm test.c 
+   27  git commit -m "Removed File"
+   28  git rm --cached file1.txt
+   29  git rm --cached test.c
+   30  git push origin master
+   31  git add ../../iMX7/.
+   32 
