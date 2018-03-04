@@ -29,4 +29,6 @@
    29  git rm --cached test.c
    30  git push origin master
    31  git add ../../iMX7/.
-   32 
+   3
+
+git pull : to update your local repository to the newest commit, execute  
